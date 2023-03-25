@@ -1,0 +1,37 @@
+.friendListItem {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  width: 360px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.friendListAvatar {
+  display: block;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.friendListName {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+
+.friendListOnline {
+  font-size: 50px;
+  line-height: 16px;
+  color: green;
+}
+
+.friendListOffline {
+  font-size: 50px;
+  line-height: 16px;
+  color: red;
+}

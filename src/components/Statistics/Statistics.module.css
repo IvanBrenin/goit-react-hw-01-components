@@ -1,0 +1,21 @@
+.title {
+  text-align: center;
+}
+.statsList {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.statsItem {
+  flex-basis: 15%;
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+}
+
+.label,
+.percentage {
+  display: block;
+}
